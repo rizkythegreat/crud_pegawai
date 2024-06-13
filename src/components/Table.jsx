@@ -81,6 +81,7 @@ const DataTable = () => {
                 </div>
             ) : (
                 <DataGrid
+                    responsive
                     sx={{
                         [`& .${gridClasses.row}`]: {
                             textTransform: 'capitalize',

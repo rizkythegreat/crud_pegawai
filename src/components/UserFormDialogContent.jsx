@@ -13,7 +13,7 @@ const UserFormDialogContent = ({
     handleDistrictChange
 }) => {
     return (
-        <DialogContent sx={{ width: 400 }}>
+        <DialogContent className='user-form-dialog-content'>
             <TextField
                 autoFocus
                 margin="dense"
